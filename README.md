@@ -2,7 +2,7 @@
 
 **Funktion:**
 
-Display GUI and get User Input:
+<p align="center">Display GUI and get User Input:</p>
 
 <p align="center">
   <img src="GUI.png">
