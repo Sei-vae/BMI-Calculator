@@ -1,0 +1,40 @@
+﻿<Window x:Class="bmi_calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:bmi_calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="250">
+    <StackPanel Margin="0, 30, 0, 0">
+        <Grid Margin="20, 5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Label Padding="15, 5" Grid.Row="0" Content="Gewicht: " />
+            <Label Padding="15, 5" Grid.Row="1" Content="Größe: " />
+            <Label Padding="15, 5" Grid.Row="2" Content="BMI: " />
+
+            <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Weight}" Name="TxtWeight" PreviewTextInput="Txt_PreviewTextInput" />
+            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Height}" Name="TxtHeight" PreviewTextInput="Txt_PreviewTextInput" />
+            <Label Grid.Row="2" Grid.Column="1" Content="" Name="DisplayBmi" />
+
+        </Grid>
+
+        <Label HorizontalAlignment="Center" Content="" Name="DisplayBmiInfo" />
+
+        <Button Margin="30, 5" Padding="0, 5" Content="Berechnen" Name="CalculateBmiButton" Click="CalculateBmiButton_Click"/>
+        <Button Margin="30, 5" Padding="0, 5" Content="Speichern" Name="SaveBmiButton" Click="SaveBmiButton_Click"/>
+
+    </StackPanel>
+    
+
+</Window>
