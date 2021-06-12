@@ -2,7 +2,12 @@
 
 Funktion:
 Display GUI and get User Input:
+
 ![GUI](GUI.png)
+
+<p align="center">
+  <img width="300" height="300" src="GUI.png">
+</p>
 
 Calculate BMI from
 
