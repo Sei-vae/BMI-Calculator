@@ -1,9 +1,8 @@
 # BMI-Calculator
 
 Funktion:
-Display GUI and get User Input:
 
-![GUI](GUI.png)
+Display GUI and get User Input:
 
 <p align="center">
   <img src="GUI.png">
