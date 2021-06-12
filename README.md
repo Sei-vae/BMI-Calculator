@@ -1,6 +1,6 @@
 # BMI-Calculator
 
-Funktion:
+**Funktion:**
 
 Display GUI and get User Input:
 
@@ -8,7 +8,7 @@ Display GUI and get User Input:
   <img src="GUI.png">
 </p>
 
-Calculate BMI from
+**Calculate BMI from**
 
 ```
 double bmi = Weight / Math.Pow(Height / 100, 2);
